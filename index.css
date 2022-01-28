@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    box-sizing: border-box;
+}
+ body{
+    background-color: #3b3b98;
+    color: #fff;
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+    font-family: 'muli',sans-serif;
+    flex-direction: column;
+    padding: 10px;
+     min-height: 100vh; 
+} 
+
+ h2{
+    margin: 10px 0 20px;
+    text-align: center;
+} 
+ 
+
+.container{
+    background-color: #23235b;
+     max-width: 100%; 
+    width: 350px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+     padding: 20px;  
+    
+
+}
+  .resultcontainer{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:50px;
+    width: 100%;
+    padding: 12px 10px;
+     position: relative; 
+     letter-spacing: 1px;
+    background-color: rgba(0, 0,0, 0.4);
+    /* letter-spacing: 1px; */
+
+}   
+/* .resultcontainer #result{
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}  */
+  .resultcontainer .btn{
+     position: absolute; 
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    width: 35px;
+    font-size: 15px;
+
+}  
+ .btn{
+    border: none;
+    background-color: #3b3b98;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 8px;
+    cursor: pointer;
+} 
+ .generatebutton{
+    /* display: block; */
+    width: 100%;
+     align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-size: 16px; 
+
+} 
+  .setting{
+    
+     justify-content: space-between; 
+     align-items: center; 
+    display: flex;
+    margin: 15px 0;
+}  
